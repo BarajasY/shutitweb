@@ -1,0 +1,48 @@
+.introContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introContainer h1 {
+    color: var(--white);
+    font-size: 86px;
+}
+
+.introContainer p {
+    color: var(--cyan);
+    font-size: 26px;
+}
+
+.introContent {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.introWords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introLogos {
+    text-align: center;
+}
+
+.introLogos p {
+    margin-bottom: 10px;
+}
+
+.introLogo {
+    color: var(--white);
+    font-size: 60px;
+    padding: 10px;
+}
+
+.introLogos p:nth-child(3) {
+    color: var(--cyan);
+}

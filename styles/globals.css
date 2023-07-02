@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    text-decoration: none;
+    transition: .1s;
+}
+
+body {
+    background: linear-gradient(156deg, rgba(157, 157, 157, 1) 0%, rgba(26, 12, 40, 1) 100%);
+}
+
+:root {
+    --darkblue:#00465f;
+    --cyan:#54ccaf;
+    --white:#fffffa;
+    --darkblue2: #092e7c;
+    --creme: #f17d7a;
+    --blue: #2274af;
+}

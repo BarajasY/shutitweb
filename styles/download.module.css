@@ -1,0 +1,31 @@
+.downloadContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.downloadContainer h1 {
+    color: var(--white);
+    font-size: 36px;
+}
+
+.downloadContainer a {
+    color: var(--cyan);
+    padding: 20px;
+    border: 2px solid var(--cyan);
+    border-radius: 15px;
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.downloadContainer a:hover {
+    color: black;
+    background: var(--cyan);
+}
+
+.downloadContainer span {
+    color: var(--blue);
+}

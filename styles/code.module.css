@@ -1,0 +1,50 @@
+.codeContainer {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.codeContainer h1 {
+    color: var(--white);
+}
+
+.codeContainer p {
+    color: var(--creme);
+}
+
+.codeContainer p span {
+    color: var(--cyan);
+}
+
+.codeImages {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.codeImages section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.codeImages section img {
+    box-shadow: 5px 5px 20px var(--darkblue);
+    object-position: 0px;
+}
+
+#tsimage {
+    width: 550px;
+    height: 600px;
+    object-fit: cover;
+}
+
+#rsimage {
+    width: 800px;
+    height: 150px;
+    object-fit: cover;
+}
