@@ -38,13 +38,42 @@
 }
 
 #tsimage {
-    width: 550px;
-    height: 600px;
+    width: 450px;
+    height: 500px;
     object-fit: cover;
 }
 
 #rsimage {
-    width: 800px;
-    height: 150px;
+    width: 550px;
+    height: 100px;
     object-fit: cover;
+}
+
+@media only screen and (max-width:1200px) {
+    .codeImages {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #rsimage {
+        width: 400px;
+        height: 80px;
+    }
+
+    #tsimage {
+        width: 360px;
+        height: 500px;
+    }
+
+    .codeContainer div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .codeContainer div p {
+        width: 90%;
+        text-align: justify;
+    }
 }

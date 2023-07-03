@@ -46,3 +46,20 @@
 .introLogos p:nth-child(3) {
     color: var(--cyan);
 }
+
+@media only screen and (max-width: 1200px) {
+    .introContent {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .introContent {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 80%;
+        align-items: center;
+        text-align: center;
+    }
+}

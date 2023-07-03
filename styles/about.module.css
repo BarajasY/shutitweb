@@ -10,14 +10,14 @@
 }
 
 .aboutContent section {
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .aboutContent section article {
-    width: 80%;
+    width: 100%;
 }
 
 .aboutWords h1{
@@ -36,8 +36,8 @@
 }
 
 .aboutImage img {
-    width: 630px;
-    height: 500px;
+    width: 550px;
+    height: 450px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 5px 5px 20px var(--blue);
@@ -53,9 +53,46 @@
     }
 }
 
+
+@media only screen and (max-width: 1200px) {
+    .aboutImage img {
+        width: 480px;
+        height: 400px;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     .aboutContent {
         flex-direction: column;
         width: 100%;
+    }
+
+    .aboutContent section {
+        width: 100%;
+    }
+
+    .aboutImage {
+        margin-top: 50px;
+    }
+
+    .aboutImage img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .aboutWords article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutWords h1 {
+        text-align: center;
+    }
+
+    .aboutWords p {
+        text-align: justify;
+        width: 90%;
     }
 }
